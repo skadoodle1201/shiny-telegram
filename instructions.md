@@ -7,8 +7,6 @@
 5. git add demo.js //this will stage and start tracking file demo.js
 6. git commit -m "added demo.js" //this will save the file with git and message added demo.js giving message is mandatory.
 
-<-------------->
-
 ```
 git add <file_name> // adds file to staged
 git commit -m "<message>" // commits the staged files with a commit message
@@ -27,4 +25,10 @@ git checkout -b <branch_name> // creates a new branch with the provided branch n
 git checkout <branch_name> // change to an existing branch
 
 git merge <branch_name> // eg git merge test merge the code from the branch to your current branch. i.e merge code from test branch in master assuming current branch is master
+
+git rebase <branch_name> // fucntions the same way merge works but changes the hisotry
+
 ```
+
+Rebase vs merge
+![alt text](image-1.png)
