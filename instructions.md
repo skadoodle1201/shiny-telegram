@@ -8,6 +8,8 @@
 6. git commit -m "added demo.js" //this will save the file with git and message added demo.js giving message is mandatory.
 
 <-------------->
+
+```
 git add <file_name> // adds file to staged
 git commit -m "<message>" // commits the staged files with a commit message
 git status // this shows current state of the updated files.
@@ -21,3 +23,8 @@ git push <name> <branch_name> //e.g git push origin master this this push the co
 
 git branch //show the current branch you are at.
 git checkout -b <branch_name> // creates a new branch with the provided branch name
+
+git checkout <branch_name> // change to an existing branch
+
+git merge <branch_name> // eg git merge test merge the code from the branch to your current branch. i.e merge code from test branch in master assuming current branch is master
+```
